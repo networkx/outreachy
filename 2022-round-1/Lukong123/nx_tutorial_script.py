@@ -32,5 +32,4 @@ print(path)
 
 # plotting graph using networkx.draw
 
-my_graph = nx.complete_graph(DG)
-nx.draw(my_graph)
+nx.draw(DG)
