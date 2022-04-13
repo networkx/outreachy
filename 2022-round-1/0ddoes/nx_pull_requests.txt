@@ -2,3 +2,4 @@
 1. https://github.com/networkx/networkx/pull/5432
 2. https://github.com/networkx/networkx/pull/5474
 3. https://github.com/networkx/networkx/pull/5522
+4. https://github.com/networkx/networkx/pull/5528
