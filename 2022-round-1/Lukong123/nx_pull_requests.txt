@@ -2,3 +2,5 @@ https://github.com/networkx/networkx/pull/5471
 https://github.com/networkx/networkx/pulls/Lukong123
 https://github.com/networkx/networkx/pull/5485
 https://github.com/networkx/networkx/pull/5493
+https://github.com/networkx/networkx/pull/5518
+
