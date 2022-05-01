@@ -9,6 +9,8 @@ PULL REQUESTS
 8. https://github.com/networkx/networkx/pull/5531
 9. https://github.com/networkx/networkx/pull/5544
 10. https://github.com/networkx/nx-guides/pull/69
+11. https://github.com/networkx/networkx/pull/5583
+12. https://github.com/networkx/nx-guides/pull/75
 
 DISCUSSIONS
 1. https://github.com/networkx/networkx/discussions/5464
@@ -21,3 +23,4 @@ ISSUES
 3. https://github.com/networkx/networkx/issues/5547
 4. https://github.com/networkx/nx-guides/issues/66 
 5. https://github.com/networkx/nx-guides/issues/71
+6. https://github.com/networkx/networkx/issues/5594
