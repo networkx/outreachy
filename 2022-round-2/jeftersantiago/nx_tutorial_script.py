@@ -25,7 +25,8 @@ G.add_edge((4, 'Moscow'), 'São Paulo')
 G.add_edge((4, 'Moscow'), 'New York')
 
 # Calculates the shortest distances between all pairs
-path = dict(nx.all_pairs_dijkstra_path_length(G))
+path = dict(nx.all_pairs_shortest_path_length(G))
+
 
 print("Shortest distances between nodes")
 for node in G.nodes:
