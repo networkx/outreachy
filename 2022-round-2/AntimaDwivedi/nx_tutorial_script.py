@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 #creating a Directed Graph 
 DG = nx.DiGraph()
 
+
+
+
 #Adding nodes in the Graph
 DG.add_node(8)
 DG.add_node("great")
@@ -43,6 +46,8 @@ for each_node in shortest_path:
 #Visualization of the graph
 nx.draw(DG, with_labels=True, font_weight='bold')
 plt.show()
+
+
 
 
 
