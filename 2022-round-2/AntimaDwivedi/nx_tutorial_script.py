@@ -44,8 +44,6 @@ for each_node in shortest_path:
 nx.draw(DG, with_labels=True, font_weight='bold')
 plt.show()
 
-![Screenshot (5)](https://user-images.githubusercontent.com/56269029/196000053-22d68177-ce95-4f0f-bf2b-336da21b5032.png)
-
 
 
 
