@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 #creating a Directed Graph 
 DG = nx.DiGraph()
 
-
-
-
 #Adding nodes in the Graph
 DG.add_node(8)
 DG.add_node("great")
