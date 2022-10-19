@@ -127,6 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# my testing notebook. For learning.
-practice_notebook.py
