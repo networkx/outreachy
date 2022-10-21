@@ -1,4 +1,4 @@
-using networkx as nx
+import networkx as nx
 
 # Create a DiGraph
 G = nx.DiGraph()
@@ -15,7 +15,7 @@ G.add_edges_from(edges)
 # Find shortest path b/w all pairs of nodes
 paths = dict(nx.all_pairs_shortest_path(G))
 for path in paths:
-	print(path, paths[key])
+	print(path, paths[path])
 
 # Plot the graph
 nx.draw(G, with_labels=True, font_weight="bold")
