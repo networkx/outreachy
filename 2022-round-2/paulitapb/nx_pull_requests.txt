@@ -3,6 +3,7 @@ https://github.com/networkx/networkx/pull/6069
 https://github.com/networkx/networkx/pull/6082
 https://github.com/networkx/networkx/pull/6085
 https://github.com/networkx/networkx/pull/6104
+https://github.com/networkx/networkx/pull/6113
 
 ISSUES
 https://github.com/networkx/networkx/issues/6103
