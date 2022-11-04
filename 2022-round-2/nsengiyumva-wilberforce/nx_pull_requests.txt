@@ -1,3 +1,4 @@
 https://github.com/networkx/networkx/pull/6076
 https://github.com/networkx/networkx/pull/6108
 https://github.com/networkx/networkx/pull/6160
+https://github.com/networkx/networkx/pull/6179
