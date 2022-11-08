@@ -1,0 +1,2 @@
+https://github.com/networkx/networkx/pull/6120
+https://github.com/networkx/networkx/pull/6152
