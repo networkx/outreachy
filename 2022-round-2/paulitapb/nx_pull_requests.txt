@@ -14,6 +14,7 @@ https://github.com/networkx/networkx/pull/6155
 https://github.com/networkx/networkx/pull/6168
 https://github.com/networkx/networkx/pull/6169
 https://github.com/networkx/networkx/pull/6171
+https://github.com/networkx/networkx/pull/6209
 
 ISSUES
 https://github.com/networkx/networkx/issues/6103
