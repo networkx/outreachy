@@ -17,4 +17,4 @@ for path in paths:
 	print(path, paths[path])
 
 #drawing the graph
-nx.draw(DG1)
+nx.draw(DG1, with_labels=True)
