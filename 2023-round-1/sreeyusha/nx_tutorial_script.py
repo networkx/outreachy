@@ -23,26 +23,43 @@ DG.add_edge('d',"one")
 DG.add_edge("one",(7,8))
 
 #Finding the shortest path and storing the output in dictionary
-pairs= dict(nx.all_pairs_shortest_path(DG))
+pairs=dict(nx.shortest_path(DG))
 
 
 for node in pairs:
-    print(pairs[node])
+    # print("from node ",node,"->")
+    for node1 in pairs[node]:
+        print("from node ",node,"->",node1," shortest path is:",pairs[node][node1])
 
 """
     output of above for loop
-{5: [5], 'a': [5, 'a'], (1, 2): [5, (1, 2)], 'b': [5, 'a', 'b']}
-{'a': ['a'], 'b': ['a', 'b']}
-{'one': ['one'], (7, 8): ['one', (7, 8)]}
-{1: [1]}
-{2: [2]}
-{7: [7], 8: [7, 8], 'one': [7, 8, 'one'], (7, 8): [7, 8, 'one', (7, 8)]}
-{8: [8], 'one': [8, 'one'], (7, 8): [8, 'one', (7, 8)]}
-{'b': ['b']}
-{(1, 2): [(1, 2)]}
-{'c': ['c'], 'd': ['c', 'd'], 'one': ['c', 'one'], (7, 8): ['c', 'one', (7, 8)]}
-{'d': ['d'], 'one': ['d', 'one'], (7, 8): ['d', 'one', (7, 8)]}
-{(7, 8): [(7, 8)]}
+from node  5 -> 5  shortest path is: [5]
+from node  5 -> a  shortest path is: [5, 'a']
+from node  5 -> (1, 2)  shortest path is: [5, (1, 2)]
+from node  5 -> b  shortest path is: [5, 'a', 'b']
+from node  a -> a  shortest path is: ['a']
+from node  a -> b  shortest path is: ['a', 'b']
+from node  one -> one  shortest path is: ['one']
+from node  one -> (7, 8)  shortest path is: ['one', (7, 8)]
+from node  1 -> 1  shortest path is: [1]
+from node  2 -> 2  shortest path is: [2]
+from node  7 -> 7  shortest path is: [7]
+from node  7 -> 8  shortest path is: [7, 8]
+from node  7 -> one  shortest path is: [7, 8, 'one']
+from node  7 -> (7, 8)  shortest path is: [7, 8, 'one', (7, 8)]
+from node  8 -> 8  shortest path is: [8]
+from node  8 -> one  shortest path is: [8, 'one']
+from node  8 -> (7, 8)  shortest path is: [8, 'one', (7, 8)]
+from node  b -> b  shortest path is: ['b']
+from node  (1, 2) -> (1, 2)  shortest path is: [(1, 2)]
+from node  c -> c  shortest path is: ['c']
+from node  c -> d  shortest path is: ['c', 'd']
+from node  c -> one  shortest path is: ['c', 'one']
+from node  c -> (7, 8)  shortest path is: ['c', 'one', (7, 8)]
+from node  d -> d  shortest path is: ['d']
+from node  d -> one  shortest path is: ['d', 'one']
+from node  d -> (7, 8)  shortest path is: ['d', 'one', (7, 8)]
+from node  (7, 8) -> (7, 8)  shortest path is: [(7, 8)]
 """
 
 #visual plot of above graph
