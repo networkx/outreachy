@@ -11,13 +11,26 @@ options = {
     'node_size': 1500
 }
 
-sp = dict(nx.all_pairs_shortest_path(DG))
+sp_dict = dict(nx.all_pairs_shortest_path(DG))
 
-for key in sp:
-    for val in sp[key]:
-        l = len(sp[key][val])-1
-        if key != val:
-            print("Shortest Distance between {} and {} is {}".format(key, val, l))
+for src in DG.nodes():
+    for desti in DG.nodes():
+        if src != desti:
+            print("Shortest path between {} and {}:".format(src, desti), end=" ")
+
+            if desti in sp_dict[src]:
+                path = sp_dict[src][desti]
+                first = True
+                for ele in path:
+                    if first:
+                        print("{}".format(ele), end=" ")
+                        first = False
+                    else:
+                        print("-->{}".format(ele), end=" ")
+            else:
+                print("Doesn't exist")
+            print("\n")
+
 
 nx.draw_networkx(DG, **options)
 plt.draw()
