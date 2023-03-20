@@ -1,2 +1,0 @@
-https://github.com/networkx/outreachy/pull/164
-https://github.com/networkx/outreachy/pull/176
