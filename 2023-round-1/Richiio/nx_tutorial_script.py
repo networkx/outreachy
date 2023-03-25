@@ -64,5 +64,5 @@ print(paths)
 
 # Plot the graph
 nx.draw(DG, pos=nx.spring_layout(DG), with_labels=True, font_size=10, node_color='green', node_size=1000)
-plt.title(')
+plt.title('Graph implementation')
 plt.show()
