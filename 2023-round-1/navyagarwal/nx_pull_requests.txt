@@ -1,1 +1,42 @@
-1. https://github.com/networkx/networkx/pull/6474
+PULL REQUESTS:
+1. https://github.com/networkx/outreachy/pull/153
+2. https://github.com/networkx/outreachy/pull/163
+3. https://github.com/networkx/networkx/pull/6491
+4. https://github.com/networkx/networkx/pull/6497
+5. https://github.com/networkx/networkx/pull/6513
+6. https://github.com/networkx/networkx/pull/6526
+7. https://github.com/networkx/networkx/pull/6528
+8. https://github.com/networkx/networkx/pull/6542
+9. https://github.com/networkx/networkx/pull/6486
+10. https://github.com/networkx/networkx/pull/6504
+11. https://github.com/networkx/networkx/pull/6507
+12. https://github.com/networkx/networkx/pull/6551
+13. https://github.com/networkx/nx-guides/pull/94
+14. https://github.com/networkx/nx-guides/pull/97
+15. https://github.com/networkx/networkx/pull/6474
+16. https://github.com/networkx/networkx/pull/6487
+17. https://github.com/networkx/networkx/pull/6558
+18. https://github.com/networkx/networkx/pull/6563
+19. https://github.com/networkx/networkx/pull/6584
+
+
+ISSUES:
+1. https://github.com/networkx/networkx/issues/6547
+2. https://github.com/networkx/networkx/issues/6594
+3. https://github.com/networkx/nx-guides/issues/95
+4. https://github.com/networkx/networkx/issues/6527
+5. https://github.com/networkx/networkx/issues/6477
+6. https://github.com/networkx/nx-guides/issues/90
+
+
+DISCUSSIONS:
+1. https://github.com/networkx/networkx/discussions/6561
+2. https://github.com/networkx/networkx/issues/6479#issuecomment-1463885184
+3. https://github.com/networkx/networkx/issues/6485#issuecomment-1464834906
+4. https://github.com/networkx/networkx/discussions/6500#discussioncomment-5291494
+5. https://github.com/networkx/networkx/discussions/6502#discussioncomment-5291709
+6. https://github.com/networkx/networkx/issues/6533#issuecomment-1478343212
+7. https://github.com/networkx/networkx/discussions/6543#discussioncomment-5405706
+8. https://github.com/networkx/nx-guides/pull/98#issuecomment-1483808587
+9. https://github.com/networkx/networkx/issues/6562#issuecomment-1486668955
+10. https://github.com/networkx/networkx/discussions/6480
