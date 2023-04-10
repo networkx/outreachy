@@ -8,7 +8,7 @@ NetworkX, nodes can be any hashable object such as text string, an image, an XML
 #incorporating nodes with attributes group and color based on types
 G.add_node(1)
 G.add_node(1, group='int',color='red')
-G.add_node("Outreachy", group='int',color='green')
+G.add_node("Outreachy", group='int',color='yellow')
 G.add_node((2,4), group='tuple',color='blue')
 G.add_node(3, group='int',color='red')
 
@@ -43,7 +43,7 @@ nx.clustering(G)
 # Drawing the graphs while using matplotlib labrary
 G = nx.petersen_graph()
 
-subax1 = plt.subplot(121)
+subax1 = plt.subplot(120)
 
 nx.draw(G, with_labels=True, font_weight='bold')
 
