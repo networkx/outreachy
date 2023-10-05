@@ -1,0 +1,103 @@
+networkx\readwrite\json_graph\tests\test_tree.py ...                                                                                        [ 90%]
+networkx\readwrite\tests\test_adjlist.py ..................                                                                                 [ 90%]
+networkx\readwrite\tests\test_edgelist.py ..........................                                                                        [ 90%]
+networkx\readwrite\tests\test_gexf.py .....................                                                                                 [ 91%]
+networkx\readwrite\tests\test_gml.py .........................                                                                              [ 91%]
+networkx\readwrite\tests\test_graph6.py ...............................                                                                     [ 92%]
+networkx\readwrite\tests\test_graphml.py ...........................................................                                        [ 93%]
+networkx\readwrite\tests\test_leda.py ..                                                                                                    [ 93%]
+networkx\readwrite\tests\test_p2g.py ...                                                                                                    [ 93%]
+networkx\readwrite\tests\test_pajek.py ........                                                                                             [ 93%]
+networkx\readwrite\tests\test_sparse6.py ................                                                                                   [ 94%]
+networkx\readwrite\tests\test_text.py .................................                                                                     [ 94%]
+networkx\tests\test_all_random_functions.py s                                                                                               [ 94%] 
+networkx\tests\test_convert.py ...............                                                                                              [ 95%]
+networkx\tests\test_convert_numpy.py ..................................................                                                     [ 95%]
+networkx\tests\test_convert_pandas.py ......................                                                                                [ 96%]
+networkx\tests\test_convert_scipy.py ....................                                                                                   [ 96%]
+networkx\tests\test_exceptions.py .......                                                                                                   [ 96%]
+networkx\tests\test_import.py ..                                                                                                            [ 96%]
+networkx\tests\test_lazy_imports.py ....                                                                                                    [ 97%]
+networkx\tests\test_relabel.py ..............................                                                                               [ 97%]
+networkx\utils\tests\test__init.py .                                                                                                        [ 97%] 
+networkx\utils\tests\test_decorators.py ...................................                                                                 [ 98%]
+networkx\utils\tests\test_heaps.py ..                                                                                                       [ 98%]
+networkx\utils\tests\test_mapped_queue.py ..............................................                                                    [ 99%]
+networkx\utils\tests\test_misc.py ...............................                                                                           [ 99%]
+networkx\utils\tests\test_random_sequence.py ....                                                                                           [ 99%]
+networkx\utils\tests\test_rcm.py ..                                                                                                         [ 99%]
+networkx\utils\tests\test_unionfind.py .....                                                                                                [100%]
+
+================================================================ warnings summary ================================================================ 
+networkx\algorithms\operators\product.py:347
+  C:\Users\aksha\networkx\networkx\algorithms\operators\product.py:347: DeprecationWarning: invalid escape sequence '\ '
+    """Returns the specified power of a graph.
+
+<class 'networkx.utils.decorators.argmap'> compilation 12:4
+  <class 'networkx.utils.decorators.argmap'> compilation 12:4: DeprecationWarning:
+
+  random_tree is deprecated and will be removed in NX v3.4
+  Use random_labeled_tree instead.
+
+networkx\drawing\tests\test_pylab.py:422
+  C:\Users\aksha\networkx\networkx\drawing\tests\test_pylab.py:422: PytestUnknownMarkWarning: Unknown pytest.mark.mpl_image_compare - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.mpl_image_compare
+
+networkx\readwrite\tests\test_gml.py:557
+  C:\Users\aksha\networkx\networkx\readwrite\tests\test_gml.py:557: DeprecationWarning: invalid octal escape sequence '\420'
+    "graph [edge [ source u'u\4200' target u'u\4200' ] "
+
+networkx\readwrite\tests\test_gml.py:558
+  C:\Users\aksha\networkx\networkx\readwrite\tests\test_gml.py:558: DeprecationWarning: invalid octal escape sequence '\420'
+    + "node [ id u'u\4200' label b ] ]"
+
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_decoding
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_decoding
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_decoding
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_sensible_relabeling
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_sensible_relabeling
+networkx/algorithms/tree/tests/test_coding.py::TestNestedTuple::test_sensible_relabeling
+  C:\Users\aksha\networkx\networkx\algorithms\tree\coding.py:198: DeprecationWarning: The function `join` is deprecated and is renamed `join_trees`.
+  The ``join`` function itself will be removed in v3.4
+    return nx.tree.join([(_make_tree(child), 0) for child in sequence])
+
+networkx/drawing/tests/test_pylab.py::test_draw
+  C:\Users\aksha\anaconda3\Lib\site-packages\fontTools\misc\py23.py:11: DeprecationWarning: The py23 module has been deprecated and will be removed in a future release. Please update your code.
+    warnings.warn(
+
+networkx/drawing/tests/test_pylab.py::test_house_with_colors
+  C:\Users\aksha\anaconda3\Lib\site-packages\_pytest\python.py:198: PytestReturnNotNoneWarning: Expected None, but networkx/drawing/tests/test_pylab.py::test_house_with_colors returned <Figure size 460.8x345.6 with 1 Axes>, which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-False-expected_order0]
+  C:\Users\aksha\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited at iteration 10 with accuracies
+  [0.02743716]
+  not reaching the requested tolerance 1e-08.
+  Use iteration 11 instead with accuracy
+  0.027437158685216033.
+
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-False-expected_order0]
+  C:\Users\aksha\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited postprocessing with accuracies
+  [0.02743716]
+  not reaching the requested tolerance 1e-08.
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-True-expected_order1]
+  C:\Users\aksha\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited at iteration 10 with accuracies
+  [0.00056623]
+  not reaching the requested tolerance 1e-08.
+  Use iteration 11 instead with accuracy
+  0.0005662307712154687.
+
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-True-expected_order1]
+  C:\Users\aksha\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited postprocessing with accuracies
+  [0.00056623]
+  not reaching the requested tolerance 1e-08.
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================================== 5227 passed, 13 skipped, 17 warnings in 381.99s (0:06:21) ============================================ 
