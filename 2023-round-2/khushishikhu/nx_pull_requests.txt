@@ -1,0 +1,4 @@
+
+### Link to pull Request
+https://github.com/networkx/networkx/pull/6996
+Issue: https://github.com/networkx/networkx/issues/5562
