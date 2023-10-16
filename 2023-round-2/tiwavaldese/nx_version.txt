@@ -1,0 +1,1 @@
+print(nx.__version__)
