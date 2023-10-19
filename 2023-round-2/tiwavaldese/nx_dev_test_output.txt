@@ -1,0 +1,1083 @@
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.11.5, pytest-7.4.2, pluggy-1.3.0
+rootdir: C:\Users\00
+plugins: cov-4.1.0
+collected 5150 items / 3 skipped
+
+networkx\networkx\algorithms\approximation\tests\test_approx_clust_coeff.py ......                               [  0%]
+networkx\networkx\algorithms\approximation\tests\test_clique.py ........                                         [  0%]
+networkx\networkx\algorithms\approximation\tests\test_connectivity.py ..................                         [  0%]
+networkx\networkx\algorithms\approximation\tests\test_distance_measures.py ........                              [  0%]
+networkx\networkx\algorithms\approximation\tests\test_dominating_set.py ....                                     [  0%]
+networkx\networkx\algorithms\approximation\tests\test_kcomponents.py ................                            [  1%]
+networkx\networkx\algorithms\approximation\tests\test_matching.py .                                              [  1%]
+networkx\networkx\algorithms\approximation\tests\test_maxcut.py .....                                            [  1%]
+networkx\networkx\algorithms\approximation\tests\test_ramsey.py .                                                [  1%]
+networkx\networkx\algorithms\approximation\tests\test_steinertree.py ....                                        [  1%]
+networkx\networkx\algorithms\approximation\tests\test_traveling_salesman.py .................................... [  2%]
+.....s.                                                                                                          [  2%]
+networkx\networkx\algorithms\approximation\tests\test_treewidth.py ..............                                [  2%]
+networkx\networkx\algorithms\approximation\tests\test_vertex_cover.py ....                                       [  2%]
+networkx\networkx\algorithms\assortativity\tests\test_connectivity.py ..........                                 [  2%]
+networkx\networkx\algorithms\assortativity\tests\test_correlation.py .....................                       [  3%]
+networkx\networkx\algorithms\assortativity\tests\test_mixing.py ...................                              [  3%]
+networkx\networkx\algorithms\assortativity\tests\test_neighbor_degree.py ......                                  [  3%]
+networkx\networkx\algorithms\assortativity\tests\test_pairs.py ...........                                       [  3%]
+networkx\networkx\algorithms\bipartite\tests\test_basic.py ...............                                       [  4%]
+networkx\networkx\algorithms\bipartite\tests\test_centrality.py .......                                          [  4%]
+networkx\networkx\algorithms\bipartite\tests\test_cluster.py .........                                           [  4%]
+networkx\networkx\algorithms\bipartite\tests\test_covering.py ....                                               [  4%]
+networkx\networkx\algorithms\bipartite\tests\test_edgelist.py ...............                                    [  4%]
+networkx\networkx\algorithms\bipartite\tests\test_extendability.py ...........                                   [  5%]
+networkx\networkx\algorithms\bipartite\tests\test_generators.py ..........                                       [  5%]
+networkx\networkx\algorithms\bipartite\tests\test_matching.py ....................                               [  5%]
+networkx\networkx\algorithms\bipartite\tests\test_matrix.py ...........                                          [  5%]
+networkx\networkx\algorithms\bipartite\tests\test_project.py ..................                                  [  6%]
+networkx\networkx\algorithms\bipartite\tests\test_redundancy.py ...                                              [  6%]
+networkx\networkx\algorithms\bipartite\tests\test_spectral_bipartivity.py ...                                    [  6%]
+networkx\networkx\algorithms\centrality\tests\test_betweenness_centrality.py ................................... [  6%]
+......                                                                                                           [  7%]
+networkx\networkx\algorithms\centrality\tests\test_betweenness_centrality_subset.py ......................       [  7%]
+networkx\networkx\algorithms\centrality\tests\test_closeness_centrality.py .............                         [  7%]
+networkx\networkx\algorithms\centrality\tests\test_current_flow_betweenness_centrality.py ....................   [  8%]
+networkx\networkx\algorithms\centrality\tests\test_current_flow_betweenness_centrality_subset.py .........       [  8%]
+networkx\networkx\algorithms\centrality\tests\test_current_flow_closeness.py ....                                [  8%]
+networkx\networkx\algorithms\centrality\tests\test_degree_centrality.py .......                                  [  8%]
+networkx\networkx\algorithms\centrality\tests\test_dispersion.py ....                                            [  8%]
+networkx\networkx\algorithms\centrality\tests\test_eigenvector_centrality.py .............                       [  8%]
+networkx\networkx\algorithms\centrality\tests\test_group.py ........................                             [  9%]
+networkx\networkx\algorithms\centrality\tests\test_harmonic_centrality.py .............                          [  9%]
+networkx\networkx\algorithms\centrality\tests\test_katz_centrality.py ..........................                 [ 10%]
+networkx\networkx\algorithms\centrality\tests\test_laplacian_centrality.py ...........                           [ 10%]
+networkx\networkx\algorithms\centrality\tests\test_load_centrality.py ..................                         [ 10%]
+networkx\networkx\algorithms\centrality\tests\test_percolation_centrality.py ....                                [ 10%]
+networkx\networkx\algorithms\centrality\tests\test_reaching.py ...............                                   [ 11%]
+networkx\networkx\algorithms\centrality\tests\test_second_order_centrality.py ........                           [ 11%]
+networkx\networkx\algorithms\centrality\tests\test_subgraph.py .....                                             [ 11%]
+networkx\networkx\algorithms\centrality\tests\test_trophic.py ..........                                         [ 11%]
+networkx\networkx\algorithms\centrality\tests\test_voterank.py ......                                            [ 11%]
+networkx\networkx\algorithms\coloring\tests\test_coloring.py .................                                   [ 11%]
+networkx\networkx\algorithms\community\tests\test_asyn_fluid.py .....                                            [ 12%]
+networkx\networkx\algorithms\community\tests\test_centrality.py .....                                            [ 12%]
+networkx\networkx\algorithms\community\tests\test_kclique.py ........                                            [ 12%]
+networkx\networkx\algorithms\community\tests\test_kernighan_lin.py ........                                      [ 12%]
+networkx\networkx\algorithms\community\tests\test_label_propagation.py .......................                   [ 12%]
+networkx\networkx\algorithms\community\tests\test_louvain.py .............                                       [ 13%]
+networkx\networkx\algorithms\community\tests\test_lukes.py ....                                                  [ 13%]
+networkx\networkx\algorithms\community\tests\test_modularity_max.py ..................                           [ 13%]
+networkx\networkx\algorithms\community\tests\test_quality.py .......                                             [ 13%]
+networkx\networkx\algorithms\community\tests\test_utils.py ....                                                  [ 13%]
+networkx\networkx\algorithms\components\tests\test_attracting.py ....                                            [ 13%]
+networkx\networkx\algorithms\components\tests\test_biconnected.py .............                                  [ 14%]
+networkx\networkx\algorithms\components\tests\test_connected.py .........                                        [ 14%]
+networkx\networkx\algorithms\components\tests\test_semiconnected.py ........                                     [ 14%]
+networkx\networkx\algorithms\components\tests\test_strongly_connected.py .............                           [ 14%]
+networkx\networkx\algorithms\components\tests\test_weakly_connected.py ......                                    [ 14%]
+networkx\networkx\algorithms\connectivity\tests\test_connectivity.py ..................................          [ 15%]
+networkx\networkx\algorithms\connectivity\tests\test_cuts.py .....................                               [ 15%]
+networkx\networkx\algorithms\connectivity\tests\test_disjoint_paths.py ..................                        [ 16%]
+networkx\networkx\algorithms\connectivity\tests\test_edge_augmentation.py ....................                   [ 16%]
+networkx\networkx\algorithms\connectivity\tests\test_edge_kcomponents.py .....................                   [ 17%]
+networkx\networkx\algorithms\connectivity\tests\test_kcomponents.py .sss......                                   [ 17%]
+networkx\networkx\algorithms\connectivity\tests\test_kcutsets.py s........s.....                                 [ 17%]
+networkx\networkx\algorithms\connectivity\tests\test_stoer_wagner.py .....                                       [ 17%]
+networkx\networkx\algorithms\flow\tests\test_gomory_hu.py ....s....                                              [ 17%]
+networkx\networkx\algorithms\flow\tests\test_maxflow.py ...........................                              [ 18%]
+networkx\networkx\algorithms\flow\tests\test_maxflow_large_graph.py ...s..                                       [ 18%]
+networkx\networkx\algorithms\flow\tests\test_mincost.py ...................                                      [ 18%]
+networkx\networkx\algorithms\flow\tests\test_networksimplex.py ......................                            [ 19%]
+networkx\networkx\algorithms\isomorphism\tests\test_ismags.py ..........                                         [ 19%]
+networkx\networkx\algorithms\isomorphism\tests\test_isomorphism.py ....                                          [ 19%]
+networkx\networkx\algorithms\isomorphism\tests\test_isomorphvf2.py ................                              [ 19%]
+networkx\networkx\algorithms\isomorphism\tests\test_match_helpers.py ..                                          [ 19%]
+networkx\networkx\algorithms\isomorphism\tests\test_temporalisomorphvf2.py ............                          [ 20%]
+networkx\networkx\algorithms\isomorphism\tests\test_tree_isomorphism.py .....                                    [ 20%]
+networkx\networkx\algorithms\isomorphism\tests\test_vf2pp.py ............................................        [ 21%]
+networkx\networkx\algorithms\isomorphism\tests\test_vf2pp_helpers.py ........................................... [ 21%]
+..                                                                                                               [ 21%]
+networkx\networkx\algorithms\isomorphism\tests\test_vf2userfunc.py ............................                  [ 22%]
+networkx\networkx\algorithms\link_analysis\tests\test_hits.py ......                                             [ 22%]
+networkx\networkx\algorithms\link_analysis\tests\test_pagerank.py .............................................. [ 23%]
+......                                                                                                           [ 23%]
+networkx\networkx\algorithms\minors\tests\test_contraction.py ...............................                    [ 24%]
+networkx\networkx\algorithms\operators\tests\test_all.py ...................                                     [ 24%]
+networkx\networkx\algorithms\operators\tests\test_binary.py ....................                                 [ 24%]
+networkx\networkx\algorithms\operators\tests\test_product.py ............................                        [ 25%]
+networkx\networkx\algorithms\operators\tests\test_unary.py ...                                                   [ 25%]
+networkx\networkx\algorithms\shortest_paths\tests\test_astar.py ................                                 [ 25%]
+networkx\networkx\algorithms\shortest_paths\tests\test_dense.py ........                                         [ 26%]
+networkx\networkx\algorithms\shortest_paths\tests\test_dense_numpy.py .......                                    [ 26%]
+networkx\networkx\algorithms\shortest_paths\tests\test_generic.py ..........................                     [ 26%]
+networkx\networkx\algorithms\shortest_paths\tests\test_unweighted.py .................                           [ 26%]
+networkx\networkx\algorithms\shortest_paths\tests\test_weighted.py ............................................. [ 27%]
+...........                                                                                                      [ 28%]
+networkx\networkx\algorithms\tests\test_asteroidal.py .                                                          [ 28%]
+networkx\networkx\algorithms\tests\test_boundary.py .............                                                [ 28%]
+networkx\networkx\algorithms\tests\test_bridges.py ..........                                                    [ 28%]
+networkx\networkx\algorithms\tests\test_chains.py .....                                                          [ 28%]
+networkx\networkx\algorithms\tests\test_chordal.py ..........                                                    [ 28%]
+networkx\networkx\algorithms\tests\test_clique.py ................                                               [ 29%]
+networkx\networkx\algorithms\tests\test_cluster.py ...........................................                   [ 29%]
+networkx\networkx\algorithms\tests\test_communicability.py ..                                                    [ 30%]
+networkx\networkx\algorithms\tests\test_core.py ...............                                                  [ 30%]
+networkx\networkx\algorithms\tests\test_covering.py ...........                                                  [ 30%]
+networkx\networkx\algorithms\tests\test_cuts.py .................                                                [ 30%]
+networkx\networkx\algorithms\tests\test_cycles.py .............................................................  [ 32%]
+networkx\networkx\algorithms\tests\test_d_separation.py ...............                                          [ 32%]
+networkx\networkx\algorithms\tests\test_dag.py ............................................................      [ 33%]
+networkx\networkx\algorithms\tests\test_distance_measures.py ................................................... [ 34%]
+....................                                                                                             [ 34%]
+networkx\networkx\algorithms\tests\test_distance_regular.py .......                                              [ 34%]
+networkx\networkx\algorithms\tests\test_dominance.py ......................                                      [ 35%]
+networkx\networkx\algorithms\tests\test_dominating.py .....                                                      [ 35%]
+networkx\networkx\algorithms\tests\test_efficiency.py .......                                                    [ 35%]
+networkx\networkx\algorithms\tests\test_euler.py ................................                                [ 36%]
+networkx\networkx\algorithms\tests\test_graph_hashing.py ........................                                [ 36%]
+networkx\networkx\algorithms\tests\test_graphical.py .............                                               [ 36%]
+networkx\networkx\algorithms\tests\test_hierarchy.py .....                                                       [ 37%]
+networkx\networkx\algorithms\tests\test_hybrid.py ..                                                             [ 37%]
+networkx\networkx\algorithms\tests\test_isolate.py ...                                                           [ 37%]
+networkx\networkx\algorithms\tests\test_link_prediction.py ..................................................... [ 38%]
+....................                                                                                             [ 38%]
+networkx\networkx\algorithms\tests\test_lowest_common_ancestors.py ............................................. [ 39%]
+..........                                                                                                       [ 39%]
+networkx\networkx\algorithms\tests\test_matching.py ................................................             [ 40%]
+networkx\networkx\algorithms\tests\test_max_weight_clique.py .....                                               [ 40%]
+networkx\networkx\algorithms\tests\test_mis.py .......                                                           [ 40%]
+networkx\networkx\algorithms\tests\test_moral.py .                                                               [ 40%]
+networkx\networkx\algorithms\tests\test_node_classification.py ...............                                   [ 41%]
+networkx\networkx\algorithms\tests\test_non_randomness.py ......                                                 [ 41%]
+networkx\networkx\algorithms\tests\test_planar_drawing.py ............                                           [ 41%]
+networkx\networkx\algorithms\tests\test_planarity.py ..............................                              [ 42%]
+networkx\networkx\algorithms\tests\test_reciprocity.py .....                                                     [ 42%]
+networkx\networkx\algorithms\tests\test_regular.py .............                                                 [ 42%]
+networkx\networkx\algorithms\tests\test_richclub.py .........                                                    [ 42%]
+networkx\networkx\algorithms\tests\test_similarity.py .............................................              [ 43%]
+networkx\networkx\algorithms\tests\test_simple_paths.py ........................................................ [ 44%]
+..................                                                                                               [ 44%]
+networkx\networkx\algorithms\tests\test_smallworld.py ......                                                     [ 45%]
+networkx\networkx\algorithms\tests\test_smetric.py ..                                                            [ 45%]
+networkx\networkx\algorithms\tests\test_sparsifiers.py .......                                                   [ 45%]
+networkx\networkx\algorithms\tests\test_structuralholes.py .............                                         [ 45%]
+networkx\networkx\algorithms\tests\test_summarization.py .................                                       [ 45%]
+networkx\networkx\algorithms\tests\test_swap.py .....................                                            [ 46%]
+networkx\networkx\algorithms\tests\test_threshold.py ..................                                          [ 46%]
+networkx\networkx\algorithms\tests\test_time_dependent.py ............                                           [ 46%]
+networkx\networkx\algorithms\tests\test_tournament.py .....................                                      [ 47%]
+networkx\networkx\algorithms\tests\test_triads.py ................                                               [ 47%]
+networkx\networkx\algorithms\tests\test_vitality.py ......                                                       [ 47%]
+networkx\networkx\algorithms\tests\test_voronoi.py ..........                                                    [ 47%]
+networkx\networkx\algorithms\tests\test_walks.py ......                                                          [ 47%]
+networkx\networkx\algorithms\tests\test_wiener.py ....                                                           [ 48%]
+networkx\networkx\algorithms\traversal\tests\test_beamsearch.py ...                                              [ 48%]
+networkx\networkx\algorithms\traversal\tests\test_bfs.py ...................                                     [ 48%]
+networkx\networkx\algorithms\traversal\tests\test_dfs.py ..................                                      [ 48%]
+networkx\networkx\algorithms\traversal\tests\test_edgebfs.py ................                                    [ 49%]
+networkx\networkx\algorithms\traversal\tests\test_edgedfs.py ...............                                     [ 49%]
+networkx\networkx\algorithms\tree\tests\test_branchings.py ................................                      [ 50%]
+networkx\networkx\algorithms\tree\tests\test_coding.py ..............                                            [ 50%]
+networkx\networkx\algorithms\tree\tests\test_decomposition.py .....                                              [ 50%]
+networkx\networkx\algorithms\tree\tests\test_mst.py .....................................................s.s     [ 51%]
+networkx\networkx\algorithms\tree\tests\test_operations.py ....                                                  [ 51%]
+networkx\networkx\algorithms\tree\tests\test_recognition.py .........................                            [ 52%]
+networkx\networkx\classes\tests\test_backends.py ..s                                                             [ 52%]
+networkx\networkx\classes\tests\test_coreviews.py ........................................................       [ 53%]
+networkx\networkx\classes\tests\test_digraph.py ................................................................ [ 54%]
+....................                                                                                             [ 54%]
+networkx\networkx\classes\tests\test_digraph_historical.py ..........................................            [ 55%]
+networkx\networkx\classes\tests\test_filters.py ...........                                                      [ 55%]
+networkx\networkx\classes\tests\test_function.py ............................................................... [ 57%]
+........                                                                                                         [ 57%]
+networkx\networkx\classes\tests\test_graph.py ................................................................   [ 58%]
+networkx\networkx\classes\tests\test_graph_historical.py ..................................                      [ 59%]
+networkx\networkx\classes\tests\test_graphviews.py ...................................                           [ 59%]
+networkx\networkx\classes\tests\test_multidigraph.py ........................................................... [ 60%]
+................................................................................................................ [ 63%]
+................                                                                                                 [ 63%]
+networkx\networkx\classes\tests\test_multigraph.py ............................................................. [ 64%]
+............................................................................................                     [ 66%]
+networkx\networkx\classes\tests\test_reportviews.py ............................................................ [ 67%]
+................................................................................................................ [ 69%]
+.....................................................................                                            [ 71%]
+networkx\networkx\classes\tests\test_special.py ................................................................ [ 72%]
+................................................................................................................ [ 74%]
+................................................................................................................ [ 76%]
+............................................................                                                     [ 77%]
+networkx\networkx\classes\tests\test_subgraphviews.py ................................                           [ 78%]
+networkx\networkx\drawing\tests\test_latex.py ......                                                             [ 78%]
+networkx\networkx\drawing\tests\test_layout.py ..............................                                    [ 79%]
+networkx\networkx\drawing\tests\test_pydot.py xxxF....F                                                          [ 79%]
+networkx\networkx\generators\tests\test_atlas.py ........                                                        [ 79%]
+networkx\networkx\generators\tests\test_classic.py .....................................                         [ 80%]
+networkx\networkx\generators\tests\test_cographs.py .                                                            [ 80%]
+networkx\networkx\generators\tests\test_community.py ......................                                      [ 80%]
+networkx\networkx\generators\tests\test_degree_seq.py ...................                                        [ 81%]
+networkx\networkx\generators\tests\test_directed.py ..............                                               [ 81%]
+networkx\networkx\generators\tests\test_duplication.py .......                                                   [ 81%]
+networkx\networkx\generators\tests\test_ego.py ..                                                                [ 81%]
+networkx\networkx\generators\tests\test_expanders.py ..........................                                  [ 81%]
+networkx\networkx\generators\tests\test_geometric.py ..............................                              [ 82%]
+networkx\networkx\generators\tests\test_harary_graph.py ..                                                       [ 82%]
+networkx\networkx\generators\tests\test_internet_as_graphs.py .....                                              [ 82%]
+networkx\networkx\generators\tests\test_intersection.py ....                                                     [ 82%]
+networkx\networkx\generators\tests\test_interval_graph.py ........                                               [ 82%]
+networkx\networkx\generators\tests\test_joint_degree_seq.py ....                                                 [ 82%]
+networkx\networkx\generators\tests\test_lattice.py .......................                                       [ 83%]
+networkx\networkx\generators\tests\test_line.py ...................................                              [ 84%]
+networkx\networkx\generators\tests\test_mycielski.py ...                                                         [ 84%]
+networkx\networkx\generators\tests\test_nonisomorphic_trees.py .....                                             [ 84%]
+networkx\networkx\generators\tests\test_random_clustered.py ....                                                 [ 84%]
+networkx\networkx\generators\tests\test_random_graphs.py ....................................................... [ 85%]
+..............                                                                                                   [ 85%]
+networkx\networkx\generators\tests\test_small.py ......................................                          [ 86%]
+networkx\networkx\generators\tests\test_spectral_graph_forge.py .                                                [ 86%]
+networkx\networkx\generators\tests\test_stochastic.py .......                                                    [ 86%]
+networkx\networkx\generators\tests\test_sudoku.py ......                                                         [ 86%]
+networkx\networkx\generators\tests\test_time_series.py .......                                                   [ 86%]
+networkx\networkx\generators\tests\test_trees.py ..................                                              [ 87%]
+networkx\networkx\generators\tests\test_triads.py ..                                                             [ 87%]
+networkx\networkx\linalg\tests\test_algebraic_connectivity.py .................................................. [ 88%]
+......................................                                                                           [ 88%]
+networkx\networkx\linalg\tests\test_attrmatrix.py .....                                                          [ 89%]
+networkx\networkx\linalg\tests\test_bethehessian.py .                                                            [ 89%]
+networkx\networkx\linalg\tests\test_graphmatrix.py ....                                                          [ 89%]
+networkx\networkx\linalg\tests\test_laplacian.py ....                                                            [ 89%]
+networkx\networkx\linalg\tests\test_modularity.py ...                                                            [ 89%]
+networkx\networkx\linalg\tests\test_spectrum.py .....                                                            [ 89%]
+networkx\networkx\readwrite\json_graph\tests\test_adjacency.py ........                                          [ 89%]
+networkx\networkx\readwrite\json_graph\tests\test_cytoscape.py .......                                           [ 89%]
+networkx\networkx\readwrite\json_graph\tests\test_node_link.py ...........                                       [ 89%]
+networkx\networkx\readwrite\json_graph\tests\test_tree.py ...                                                    [ 89%]
+networkx\networkx\readwrite\tests\test_adjlist.py ..................                                             [ 90%]
+networkx\networkx\readwrite\tests\test_edgelist.py ..........................                                    [ 90%]
+networkx\networkx\readwrite\tests\test_gexf.py .....................                                             [ 91%]
+networkx\networkx\readwrite\tests\test_gml.py .........................                                          [ 91%]
+networkx\networkx\readwrite\tests\test_graph6.py ...............................                                 [ 92%]
+networkx\networkx\readwrite\tests\test_graphml.py ..................sssssssssssssssssssssssssssssssssssssssss    [ 93%]
+networkx\networkx\readwrite\tests\test_leda.py ..                                                                [ 93%]
+networkx\networkx\readwrite\tests\test_p2g.py ...                                                                [ 93%]
+networkx\networkx\readwrite\tests\test_pajek.py ........                                                         [ 93%]
+networkx\networkx\readwrite\tests\test_sparse6.py ................                                               [ 93%]
+networkx\networkx\readwrite\tests\test_text.py .................................                                 [ 94%]
+networkx\networkx\tests\test_all_random_functions.py s                                                           [ 94%]
+networkx\networkx\tests\test_convert.py ...............                                                          [ 94%]
+networkx\networkx\tests\test_convert_numpy.py ..................................................                 [ 95%]
+networkx\networkx\tests\test_convert_pandas.py ......................                                            [ 96%]
+networkx\networkx\tests\test_convert_scipy.py ....................                                               [ 96%]
+networkx\networkx\tests\test_exceptions.py .......                                                               [ 96%]
+networkx\networkx\tests\test_import.py ..                                                                        [ 96%]
+networkx\networkx\tests\test_lazy_imports.py ....                                                                [ 96%]
+networkx\networkx\tests\test_relabel.py ..............................                                           [ 97%]
+networkx\networkx\utils\tests\test__init.py .                                                                    [ 97%]
+networkx\networkx\utils\tests\test_decorators.py ...................................                             [ 98%]
+networkx\networkx\utils\tests\test_heaps.py ..                                                                   [ 98%]
+networkx\networkx\utils\tests\test_mapped_queue.py ..............................................                [ 99%]
+networkx\networkx\utils\tests\test_misc.py ...............................                                       [ 99%]
+networkx\networkx\utils\tests\test_random_sequence.py ....                                                       [ 99%]
+networkx\networkx\utils\tests\test_rcm.py ..                                                                     [ 99%]
+networkx\networkx\utils\tests\test_unionfind.py .....                                                            [100%]
+
+====================================================== FAILURES =======================================================
+________________________________________________ test_pydot_issue_258 _________________________________________________
+
+self = <pydot.Dot object at 0x000002F3ADDB3550>, prog = 'neato', format = 'dot', encoding = None
+
+    def create(self, prog=None, format='ps', encoding=None):
+        """Creates and returns a binary image for the graph.
+
+        create will write the graph to a temporary dot file in the
+        encoding specified by `encoding` and process it with the
+        program given by 'prog' (which defaults to 'twopi'), reading
+        the binary image output and return it as:
+
+        - `str` of bytes in Python 2
+        - `bytes` in Python 3
+
+        There's also the preferred possibility of using:
+
+            create_'format'(prog='program')
+
+        which are automatically defined for all the supported formats,
+        for example:
+
+          - `create_ps()`
+          - `create_gif()`
+          - `create_dia()`
+
+        If 'prog' is a list, instead of a string,
+        then the fist item is expected to be the program name,
+        followed by any optional command-line arguments for it:
+
+            [ 'twopi', '-Tdot', '-s10' ]
+
+
+        @param prog: either:
+
+          - name of GraphViz executable that
+            can be found in the `$PATH`, or
+
+          - absolute path to GraphViz executable.
+
+          If you have added GraphViz to the `$PATH` and
+          use its executables as installed
+          (without renaming any of them)
+          then their names are:
+
+            - `'dot'`
+            - `'twopi'`
+            - `'neato'`
+            - `'circo'`
+            - `'fdp'`
+            - `'sfdp'`
+
+          On Windows, these have the notorious ".exe" extension that,
+          only for the above strings, will be added automatically.
+
+          The `$PATH` is inherited from `os.env['PATH']` and
+          passed to `subprocess.Popen` using the `env` argument.
+
+          If you haven't added GraphViz to your `$PATH` on Windows,
+          then you may want to give the absolute path to the
+          executable (for example, to `dot.exe`) in `prog`.
+        """
+
+        if prog is None:
+            prog = self.prog
+
+        assert prog is not None
+
+        if isinstance(prog, (list, tuple)):
+            prog, args = prog[0], prog[1:]
+        else:
+            args = []
+
+        # temp file
+        tmp_fd, tmp_name = tempfile.mkstemp()
+        os.close(tmp_fd)
+        self.write(tmp_name, encoding=encoding)
+        tmp_dir = os.path.dirname(tmp_name)
+
+        # For each of the image files...
+        for img in self.shape_files:
+            # Get its data
+            f = open(img, 'rb')
+            f_data = f.read()
+            f.close()
+            # And copy it under a file with the same name in
+            # the temporary directory
+            f = open(os.path.join(tmp_dir, os.path.basename(img)), 'wb')
+            f.write(f_data)
+            f.close()
+
+        arguments = ['-T{}'.format(format), ] + args + [tmp_name]
+
+        try:
+>           stdout_data, stderr_data, process = call_graphviz(
+                program=prog,
+                arguments=arguments,
+                working_dir=tmp_dir,
+            )
+
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1923:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:132: in call_graphviz
+    process = subprocess.Popen(
+AppData\Local\Programs\Python\Python311\Lib\subprocess.py:1026: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <Popen: returncode: None args: ['neato.exe', '-Tdot', 'C:\\Users\\00\\AppDat...>
+args = 'neato.exe -Tdot C:\\Users\\00\\AppData\\Local\\Temp\\tmppobrk9gw', executable = None, preexec_fn = None
+close_fds = False, pass_fds = (), cwd = 'C:\\Users\\00\\AppData\\Local\\Temp'
+env = {'LD_LIBRARY_PATH': '', 'PATH': 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\...Program Files\\heroku\\bin;C:\\Users\\00\\AppData\\Roaming\\Programs\\Python\\Python311;', 'SYSTEMROOT': 'C:\\Windows'}
+startupinfo = <subprocess.STARTUPINFO object at 0x000002F3ADEF0F10>, creationflags = 0, shell = False
+p2cread = Handle(3032), p2cwrite = -1, c2pread = 14, c2pwrite = Handle(2980), errread = 15, errwrite = Handle(3076)
+unused_restore_signals = True, unused_gid = None, unused_gids = None, unused_uid = None, unused_umask = -1
+unused_start_new_session = False, unused_process_group = -1
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       unused_restore_signals,
+                       unused_gid, unused_gids, unused_uid,
+                       unused_umask,
+                       unused_start_new_session, unused_process_group):
+        """Execute program (MS Windows version)"""
+
+        assert not pass_fds, "pass_fds not supported on Windows."
+
+        if isinstance(args, str):
+            pass
+        elif isinstance(args, bytes):
+            if shell:
+                raise TypeError('bytes args is not allowed on Windows')
+            args = list2cmdline([args])
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = list2cmdline([args])
+        else:
+            args = list2cmdline(args)
+
+        if executable is not None:
+            executable = os.fsdecode(executable)
+
+        # Process startup details
+        if startupinfo is None:
+            startupinfo = STARTUPINFO()
+        else:
+            # bpo-34044: Copy STARTUPINFO since it is modified above,
+            # so the caller can reuse it multiple times.
+            startupinfo = startupinfo.copy()
+
+        use_std_handles = -1 not in (p2cread, c2pwrite, errwrite)
+        if use_std_handles:
+            startupinfo.dwFlags |= _winapi.STARTF_USESTDHANDLES
+            startupinfo.hStdInput = p2cread
+            startupinfo.hStdOutput = c2pwrite
+            startupinfo.hStdError = errwrite
+
+        attribute_list = startupinfo.lpAttributeList
+        have_handle_list = bool(attribute_list and
+                                "handle_list" in attribute_list and
+                                attribute_list["handle_list"])
+
+        # If we were given an handle_list or need to create one
+        if have_handle_list or (use_std_handles and close_fds):
+            if attribute_list is None:
+                attribute_list = startupinfo.lpAttributeList = {}
+            handle_list = attribute_list["handle_list"] = \
+                list(attribute_list.get("handle_list", []))
+
+            if use_std_handles:
+                handle_list += [int(p2cread), int(c2pwrite), int(errwrite)]
+
+            handle_list[:] = self._filter_handle_list(handle_list)
+
+            if handle_list:
+                if not close_fds:
+                    warnings.warn("startupinfo.lpAttributeList['handle_list'] "
+                                  "overriding close_fds", RuntimeWarning)
+
+                # When using the handle_list we always request to inherit
+                # handles but the only handles that will be inherited are
+                # the ones in the handle_list
+                close_fds = False
+
+        if shell:
+            startupinfo.dwFlags |= _winapi.STARTF_USESHOWWINDOW
+            startupinfo.wShowWindow = _winapi.SW_HIDE
+            if not executable:
+                # gh-101283: without a fully-qualified path, before Windows
+                # checks the system directories, it first looks in the
+                # application directory, and also the current directory if
+                # NeedCurrentDirectoryForExePathW(ExeName) is true, so try
+                # to avoid executing unqualified "cmd.exe".
+                comspec = os.environ.get('ComSpec')
+                if not comspec:
+                    system_root = os.environ.get('SystemRoot', '')
+                    comspec = os.path.join(system_root, 'System32', 'cmd.exe')
+                    if not os.path.isabs(comspec):
+                        raise FileNotFoundError('shell not found: neither %ComSpec% nor %SystemRoot% is set')
+                if os.path.isabs(comspec):
+                    executable = comspec
+            else:
+                comspec = executable
+
+            args = '{} /c "{}"'.format (comspec, args)
+
+        if cwd is not None:
+            cwd = os.fsdecode(cwd)
+
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+
+        # Start the process
+        try:
+>           hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                                     # no special security
+                                     None, None,
+                                     int(not close_fds),
+                                     creationflags,
+                                     env,
+                                     cwd,
+                                     startupinfo)
+E                                    FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+AppData\Local\Programs\Python\Python311\Lib\subprocess.py:1538: FileNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+    def test_pydot_issue_258():
+        G = nx.Graph([("Example:A", 1)])
+        with pytest.raises(ValueError):
+            nx.nx_pydot.to_pydot(G)
+        with pytest.raises(ValueError):
+            nx.nx_pydot.pydot_layout(G)
+
+        G = nx.Graph()
+        G.add_node("1.2", style="filled", fillcolor="red:yellow")
+        with pytest.raises(ValueError):
+            nx.nx_pydot.to_pydot(G)
+        G.remove_node("1.2")
+        G.add_node("1.2", style="filled", fillcolor='"red:yellow"')
+        assert (
+            G.nodes.data() == nx.nx_pydot.from_pydot(nx.nx_pydot.to_pydot(G)).nodes.data()
+        )
+
+        G = nx.DiGraph()
+        G.add_edge("1", "2", foo="bar:1")
+        with pytest.raises(ValueError):
+            nx.nx_pydot.to_pydot(G)
+        G = nx.DiGraph()
+        G.add_edge("1", "2", foo='"bar:1"')
+        assert G["1"]["2"] == nx.nx_pydot.from_pydot(nx.nx_pydot.to_pydot(G))["1"]["2"]
+
+        G = nx.MultiGraph()
+        G.add_edge("1", "2", foo="b:1")
+        G.add_edge("1", "2", bar="foo:foo")
+        with pytest.raises(ValueError):
+            nx.nx_pydot.to_pydot(G)
+        G = nx.MultiGraph()
+        G.add_edge("1", "2", foo='"b:1"')
+        G.add_edge("1", "2", bar='"foo:foo"')
+        # Keys as integers aren't preserved in the conversion. They are read as strings.
+        assert [attr for _, _, attr in G.edges.data()] == [
+            attr
+            for _, _, attr in nx.nx_pydot.from_pydot(nx.nx_pydot.to_pydot(G)).edges.data()
+        ]
+
+        G = nx.Graph()
+        G.add_edge("1", "2")
+        G["1"]["2"]["f:oo"] = "bar"
+        with pytest.raises(ValueError):
+            nx.nx_pydot.to_pydot(G)
+        G = nx.Graph()
+        G.add_edge("1", "2")
+        G["1"]["2"]['"f:oo"'] = "bar"
+        assert G["1"]["2"] == nx.nx_pydot.from_pydot(nx.nx_pydot.to_pydot(G))["1"]["2"]
+
+        G = nx.Graph([('"Example:A"', 1)])
+>       layout = nx.nx_pydot.pydot_layout(G)
+
+networkx\networkx\drawing\tests\test_pydot.py:152:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+networkx\networkx\drawing\nx_pydot.py:414: in pydot_layout
+    D_bytes = P.create_dot(prog=prog)
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1733: in new_method
+    return self.create(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <pydot.Dot object at 0x000002F3ADDB3550>, prog = 'neato', format = 'dot', encoding = None
+
+    def create(self, prog=None, format='ps', encoding=None):
+        """Creates and returns a binary image for the graph.
+
+        create will write the graph to a temporary dot file in the
+        encoding specified by `encoding` and process it with the
+        program given by 'prog' (which defaults to 'twopi'), reading
+        the binary image output and return it as:
+
+        - `str` of bytes in Python 2
+        - `bytes` in Python 3
+
+        There's also the preferred possibility of using:
+
+            create_'format'(prog='program')
+
+        which are automatically defined for all the supported formats,
+        for example:
+
+          - `create_ps()`
+          - `create_gif()`
+          - `create_dia()`
+
+        If 'prog' is a list, instead of a string,
+        then the fist item is expected to be the program name,
+        followed by any optional command-line arguments for it:
+
+            [ 'twopi', '-Tdot', '-s10' ]
+
+
+        @param prog: either:
+
+          - name of GraphViz executable that
+            can be found in the `$PATH`, or
+
+          - absolute path to GraphViz executable.
+
+          If you have added GraphViz to the `$PATH` and
+          use its executables as installed
+          (without renaming any of them)
+          then their names are:
+
+            - `'dot'`
+            - `'twopi'`
+            - `'neato'`
+            - `'circo'`
+            - `'fdp'`
+            - `'sfdp'`
+
+          On Windows, these have the notorious ".exe" extension that,
+          only for the above strings, will be added automatically.
+
+          The `$PATH` is inherited from `os.env['PATH']` and
+          passed to `subprocess.Popen` using the `env` argument.
+
+          If you haven't added GraphViz to your `$PATH` on Windows,
+          then you may want to give the absolute path to the
+          executable (for example, to `dot.exe`) in `prog`.
+        """
+
+        if prog is None:
+            prog = self.prog
+
+        assert prog is not None
+
+        if isinstance(prog, (list, tuple)):
+            prog, args = prog[0], prog[1:]
+        else:
+            args = []
+
+        # temp file
+        tmp_fd, tmp_name = tempfile.mkstemp()
+        os.close(tmp_fd)
+        self.write(tmp_name, encoding=encoding)
+        tmp_dir = os.path.dirname(tmp_name)
+
+        # For each of the image files...
+        for img in self.shape_files:
+            # Get its data
+            f = open(img, 'rb')
+            f_data = f.read()
+            f.close()
+            # And copy it under a file with the same name in
+            # the temporary directory
+            f = open(os.path.join(tmp_dir, os.path.basename(img)), 'wb')
+            f.write(f_data)
+            f.close()
+
+        arguments = ['-T{}'.format(format), ] + args + [tmp_name]
+
+        try:
+            stdout_data, stderr_data, process = call_graphviz(
+                program=prog,
+                arguments=arguments,
+                working_dir=tmp_dir,
+            )
+        except OSError as e:
+            if e.errno == errno.ENOENT:
+                args = list(e.args)
+                args[1] = '"{prog}" not found in path.'.format(
+                    prog=prog)
+>               raise OSError(*args)
+E               FileNotFoundError: [WinError 2] "neato" not found in path.
+
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1933: FileNotFoundError
+______________________________________________ test_pydot_numerical_name ______________________________________________
+
+self = <pydot.Dot object at 0x000002F3ADEE4250>, prog = 'dot', format = 'dot', encoding = None
+
+    def create(self, prog=None, format='ps', encoding=None):
+        """Creates and returns a binary image for the graph.
+
+        create will write the graph to a temporary dot file in the
+        encoding specified by `encoding` and process it with the
+        program given by 'prog' (which defaults to 'twopi'), reading
+        the binary image output and return it as:
+
+        - `str` of bytes in Python 2
+        - `bytes` in Python 3
+
+        There's also the preferred possibility of using:
+
+            create_'format'(prog='program')
+
+        which are automatically defined for all the supported formats,
+        for example:
+
+          - `create_ps()`
+          - `create_gif()`
+          - `create_dia()`
+
+        If 'prog' is a list, instead of a string,
+        then the fist item is expected to be the program name,
+        followed by any optional command-line arguments for it:
+
+            [ 'twopi', '-Tdot', '-s10' ]
+
+
+        @param prog: either:
+
+          - name of GraphViz executable that
+            can be found in the `$PATH`, or
+
+          - absolute path to GraphViz executable.
+
+          If you have added GraphViz to the `$PATH` and
+          use its executables as installed
+          (without renaming any of them)
+          then their names are:
+
+            - `'dot'`
+            - `'twopi'`
+            - `'neato'`
+            - `'circo'`
+            - `'fdp'`
+            - `'sfdp'`
+
+          On Windows, these have the notorious ".exe" extension that,
+          only for the above strings, will be added automatically.
+
+          The `$PATH` is inherited from `os.env['PATH']` and
+          passed to `subprocess.Popen` using the `env` argument.
+
+          If you haven't added GraphViz to your `$PATH` on Windows,
+          then you may want to give the absolute path to the
+          executable (for example, to `dot.exe`) in `prog`.
+        """
+
+        if prog is None:
+            prog = self.prog
+
+        assert prog is not None
+
+        if isinstance(prog, (list, tuple)):
+            prog, args = prog[0], prog[1:]
+        else:
+            args = []
+
+        # temp file
+        tmp_fd, tmp_name = tempfile.mkstemp()
+        os.close(tmp_fd)
+        self.write(tmp_name, encoding=encoding)
+        tmp_dir = os.path.dirname(tmp_name)
+
+        # For each of the image files...
+        for img in self.shape_files:
+            # Get its data
+            f = open(img, 'rb')
+            f_data = f.read()
+            f.close()
+            # And copy it under a file with the same name in
+            # the temporary directory
+            f = open(os.path.join(tmp_dir, os.path.basename(img)), 'wb')
+            f.write(f_data)
+            f.close()
+
+        arguments = ['-T{}'.format(format), ] + args + [tmp_name]
+
+        try:
+>           stdout_data, stderr_data, process = call_graphviz(
+                program=prog,
+                arguments=arguments,
+                working_dir=tmp_dir,
+            )
+
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1923:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:132: in call_graphviz
+    process = subprocess.Popen(
+AppData\Local\Programs\Python\Python311\Lib\subprocess.py:1026: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <Popen: returncode: None args: ['dot.exe', '-Tdot', 'C:\\Users\\00\\AppData\...>
+args = 'dot.exe -Tdot C:\\Users\\00\\AppData\\Local\\Temp\\tmplojkv288', executable = None, preexec_fn = None
+close_fds = False, pass_fds = (), cwd = 'C:\\Users\\00\\AppData\\Local\\Temp'
+env = {'LD_LIBRARY_PATH': '', 'PATH': 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\...Program Files\\heroku\\bin;C:\\Users\\00\\AppData\\Roaming\\Programs\\Python\\Python311;', 'SYSTEMROOT': 'C:\\Windows'}
+startupinfo = <subprocess.STARTUPINFO object at 0x000002F3AA8891D0>, creationflags = 0, shell = False
+p2cread = Handle(2776), p2cwrite = -1, c2pread = 14, c2pwrite = Handle(3076), errread = 15, errwrite = Handle(3088)
+unused_restore_signals = True, unused_gid = None, unused_gids = None, unused_uid = None, unused_umask = -1
+unused_start_new_session = False, unused_process_group = -1
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       unused_restore_signals,
+                       unused_gid, unused_gids, unused_uid,
+                       unused_umask,
+                       unused_start_new_session, unused_process_group):
+        """Execute program (MS Windows version)"""
+
+        assert not pass_fds, "pass_fds not supported on Windows."
+
+        if isinstance(args, str):
+            pass
+        elif isinstance(args, bytes):
+            if shell:
+                raise TypeError('bytes args is not allowed on Windows')
+            args = list2cmdline([args])
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = list2cmdline([args])
+        else:
+            args = list2cmdline(args)
+
+        if executable is not None:
+            executable = os.fsdecode(executable)
+
+        # Process startup details
+        if startupinfo is None:
+            startupinfo = STARTUPINFO()
+        else:
+            # bpo-34044: Copy STARTUPINFO since it is modified above,
+            # so the caller can reuse it multiple times.
+            startupinfo = startupinfo.copy()
+
+        use_std_handles = -1 not in (p2cread, c2pwrite, errwrite)
+        if use_std_handles:
+            startupinfo.dwFlags |= _winapi.STARTF_USESTDHANDLES
+            startupinfo.hStdInput = p2cread
+            startupinfo.hStdOutput = c2pwrite
+            startupinfo.hStdError = errwrite
+
+        attribute_list = startupinfo.lpAttributeList
+        have_handle_list = bool(attribute_list and
+                                "handle_list" in attribute_list and
+                                attribute_list["handle_list"])
+
+        # If we were given an handle_list or need to create one
+        if have_handle_list or (use_std_handles and close_fds):
+            if attribute_list is None:
+                attribute_list = startupinfo.lpAttributeList = {}
+            handle_list = attribute_list["handle_list"] = \
+                list(attribute_list.get("handle_list", []))
+
+            if use_std_handles:
+                handle_list += [int(p2cread), int(c2pwrite), int(errwrite)]
+
+            handle_list[:] = self._filter_handle_list(handle_list)
+
+            if handle_list:
+                if not close_fds:
+                    warnings.warn("startupinfo.lpAttributeList['handle_list'] "
+                                  "overriding close_fds", RuntimeWarning)
+
+                # When using the handle_list we always request to inherit
+                # handles but the only handles that will be inherited are
+                # the ones in the handle_list
+                close_fds = False
+
+        if shell:
+            startupinfo.dwFlags |= _winapi.STARTF_USESHOWWINDOW
+            startupinfo.wShowWindow = _winapi.SW_HIDE
+            if not executable:
+                # gh-101283: without a fully-qualified path, before Windows
+                # checks the system directories, it first looks in the
+                # application directory, and also the current directory if
+                # NeedCurrentDirectoryForExePathW(ExeName) is true, so try
+                # to avoid executing unqualified "cmd.exe".
+                comspec = os.environ.get('ComSpec')
+                if not comspec:
+                    system_root = os.environ.get('SystemRoot', '')
+                    comspec = os.path.join(system_root, 'System32', 'cmd.exe')
+                    if not os.path.isabs(comspec):
+                        raise FileNotFoundError('shell not found: neither %ComSpec% nor %SystemRoot% is set')
+                if os.path.isabs(comspec):
+                    executable = comspec
+            else:
+                comspec = executable
+
+            args = '{} /c "{}"'.format (comspec, args)
+
+        if cwd is not None:
+            cwd = os.fsdecode(cwd)
+
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+
+        # Start the process
+        try:
+>           hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                                     # no special security
+                                     None, None,
+                                     int(not close_fds),
+                                     creationflags,
+                                     env,
+                                     cwd,
+                                     startupinfo)
+E                                    FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+AppData\Local\Programs\Python\Python311\Lib\subprocess.py:1538: FileNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+    def test_pydot_numerical_name():
+        G = nx.Graph()
+        G.add_edges_from([("A", "B"), (0, 1)])
+>       graph_layout = nx.nx_pydot.pydot_layout(G, prog="dot")
+
+networkx\networkx\drawing\tests\test_pydot.py:183:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+networkx\networkx\drawing\nx_pydot.py:414: in pydot_layout
+    D_bytes = P.create_dot(prog=prog)
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1733: in new_method
+    return self.create(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <pydot.Dot object at 0x000002F3ADEE4250>, prog = 'dot', format = 'dot', encoding = None
+
+    def create(self, prog=None, format='ps', encoding=None):
+        """Creates and returns a binary image for the graph.
+
+        create will write the graph to a temporary dot file in the
+        encoding specified by `encoding` and process it with the
+        program given by 'prog' (which defaults to 'twopi'), reading
+        the binary image output and return it as:
+
+        - `str` of bytes in Python 2
+        - `bytes` in Python 3
+
+        There's also the preferred possibility of using:
+
+            create_'format'(prog='program')
+
+        which are automatically defined for all the supported formats,
+        for example:
+
+          - `create_ps()`
+          - `create_gif()`
+          - `create_dia()`
+
+        If 'prog' is a list, instead of a string,
+        then the fist item is expected to be the program name,
+        followed by any optional command-line arguments for it:
+
+            [ 'twopi', '-Tdot', '-s10' ]
+
+
+        @param prog: either:
+
+          - name of GraphViz executable that
+            can be found in the `$PATH`, or
+
+          - absolute path to GraphViz executable.
+
+          If you have added GraphViz to the `$PATH` and
+          use its executables as installed
+          (without renaming any of them)
+          then their names are:
+
+            - `'dot'`
+            - `'twopi'`
+            - `'neato'`
+            - `'circo'`
+            - `'fdp'`
+            - `'sfdp'`
+
+          On Windows, these have the notorious ".exe" extension that,
+          only for the above strings, will be added automatically.
+
+          The `$PATH` is inherited from `os.env['PATH']` and
+          passed to `subprocess.Popen` using the `env` argument.
+
+          If you haven't added GraphViz to your `$PATH` on Windows,
+          then you may want to give the absolute path to the
+          executable (for example, to `dot.exe`) in `prog`.
+        """
+
+        if prog is None:
+            prog = self.prog
+
+        assert prog is not None
+
+        if isinstance(prog, (list, tuple)):
+            prog, args = prog[0], prog[1:]
+        else:
+            args = []
+
+        # temp file
+        tmp_fd, tmp_name = tempfile.mkstemp()
+        os.close(tmp_fd)
+        self.write(tmp_name, encoding=encoding)
+        tmp_dir = os.path.dirname(tmp_name)
+
+        # For each of the image files...
+        for img in self.shape_files:
+            # Get its data
+            f = open(img, 'rb')
+            f_data = f.read()
+            f.close()
+            # And copy it under a file with the same name in
+            # the temporary directory
+            f = open(os.path.join(tmp_dir, os.path.basename(img)), 'wb')
+            f.write(f_data)
+            f.close()
+
+        arguments = ['-T{}'.format(format), ] + args + [tmp_name]
+
+        try:
+            stdout_data, stderr_data, process = call_graphviz(
+                program=prog,
+                arguments=arguments,
+                working_dir=tmp_dir,
+            )
+        except OSError as e:
+            if e.errno == errno.ENOENT:
+                args = list(e.args)
+                args[1] = '"{prog}" not found in path.'.format(
+                    prog=prog)
+>               raise OSError(*args)
+E               FileNotFoundError: [WinError 2] "dot" not found in path.
+
+AppData\Local\Programs\Python\Python311\Lib\site-packages\pydot.py:1933: FileNotFoundError
+================================================== warnings summary ===================================================
+networkx\networkx\utils\backends.py:576
+  C:\Users\00\networkx\networkx\utils\backends.py:576: DeprecationWarning:
+
+  random_tree is deprecated and will be removed in NX v3.4
+  Use random_labeled_tree instead.
+    return self.orig_func(*args, **kwargs)
+
+networkx\networkx\readwrite\tests\test_gml.py:557
+  C:\Users\00\networkx\networkx\readwrite\tests\test_gml.py:557: DeprecationWarning: invalid octal escape sequence '\420'
+    "graph [edge [ source u'u\4200' target u'u\4200' ] "
+
+networkx\networkx\readwrite\tests\test_gml.py:558
+  C:\Users\00\networkx\networkx\readwrite\tests\test_gml.py:558: DeprecationWarning: invalid octal escape sequence '\420'
+    + "node [ id u'u\4200' label b ] ]"
+
+networkx/networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-False-expected_order0]
+  C:\Users\00\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited at iteration 10 with accuracies
+  [0.02743716]
+  not reaching the requested tolerance 1e-08.
+  Use iteration 11 instead with accuracy
+  0.02743715868521578.
+
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-False-expected_order0]
+  C:\Users\00\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited postprocessing with accuracies
+  [0.02743716]
+  not reaching the requested tolerance 1e-08.
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-True-expected_order1]
+  C:\Users\00\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited at iteration 10 with accuracies
+  [0.00056623]
+  not reaching the requested tolerance 1e-08.
+  Use iteration 11 instead with accuracy
+  0.0005662307712154139.
+
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+networkx/networkx/linalg/tests/test_algebraic_connectivity.py::TestSpectralOrdering::test_cycle[lobpcg-True-expected_order1]
+  C:\Users\00\networkx\networkx\linalg\algebraicconnectivity.py:302: UserWarning: Exited postprocessing with accuracies
+  [0.00056623]
+  not reaching the requested tolerance 1e-08.
+    sigma, X = sp.sparse.linalg.lobpcg(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================================== short test summary info ===============================================
+FAILED networkx/networkx/drawing/tests/test_pydot.py::test_pydot_issue_258 - FileNotFoundError: [WinError 2] "neato" not found in path.
+FAILED networkx/networkx/drawing/tests/test_pydot.py::test_pydot_numerical_name - FileNotFoundError: [WinError 2] "dot" not found in path.
+==================== 2 failed, 5092 passed, 56 skipped, 3 xfailed, 7 warnings in 282.04s (0:04:42) ====================
