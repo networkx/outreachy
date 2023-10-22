@@ -16,3 +16,6 @@ Pull Request
 - https://github.com/networkx/website/pull/19
 
 
+# .github
+Pull Request
+- https://github.com/networkx/.github/pull/1
