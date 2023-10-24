@@ -1,5 +1,7 @@
 # networkx
 Pull Request
+- https://github.com/networkx/networkx/pull/7020
+- https://github.com/networkx/networkx/pull/7052
 Discussion
 - https://github.com/networkx/networkx/discussions/7022
 
