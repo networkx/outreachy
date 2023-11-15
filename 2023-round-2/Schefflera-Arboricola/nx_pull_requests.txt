@@ -1,1 +1,7 @@
+https://github.com/networkx/networkx/pull/7110
+https://github.com/networkx/nx-parallel/pull/24
+https://github.com/networkx/networkx/pull/7027
+https://github.com/networkx/networkx/pull/7013
+https://github.com/networkx/nx-parallel/pull/14
+https://github.com/networkx/nx-parallel/pull/13
 https://github.com/networkx/networkx/pull/6995
